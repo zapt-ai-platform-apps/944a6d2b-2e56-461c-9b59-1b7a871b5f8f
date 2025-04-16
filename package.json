@@ -1,7 +1,7 @@
 {
-    "name": "discovery-journey",
+    "name": "social-media-hook-generator",
     "version": "1.0.0",
-    "description": "A journey of self-discovery and meaning",
+    "description": "A tool for generating engaging social media hooks and video scripts",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -11,6 +11,7 @@
     },
     "dependencies": {
         "@sentry/browser": "^8.41.0",
+        "@sentry/node": "^8.54.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "zod": "^3.22.4"

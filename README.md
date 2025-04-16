@@ -1,33 +1,36 @@
-# رحلة الاكتشاف (Journey of Discovery)
+# منشئ هوكات السوشيال ميديا
 
-An interactive journey to help users discover their true value and the meaning of life, guiding them towards psychological balance and stability.
+تطبيق لإنشاء هوكات جذابة ونصوص فيديو مؤثرة للسوشيال ميديا تساعد في تحقيق التفاعل والانتشار على منصات التواصل الاجتماعي.
 
-## About the App
+## نبذة عن التطبيق
 
-This app guides users through a series of thoughtful questions that help them explore their values, beliefs, and worldview. Through this guided journey, users discover the greatest value they can obtain—the gift of life offered through Christ's redemptive work.
+يساعد هذا التطبيق في إنشاء محتوى جذاب للسوشيال ميديا من خلال:
+- إنشاء هوكات قوية تجذب انتباه المشاهدين على الفور
+- كتابة نصوص فيديو ريلز مؤثرة ومقنعة
+- تخصيص المحتوى وفقاً للمشكلة والجمهور المستهدف والنتيجة المرغوبة
 
-## Features
+## المميزات
 
-- Step-by-step questionnaire that guides users toward self-discovery
-- Narrative content that unfolds as users progress
-- Progress tracking and the ability to restart the journey
-- Educational content about Christian values and the concept of redemption
-- Responsive design for all devices
+- واجهة سهلة الاستخدام لإدخال المشكلة والجمهور المستهدف والنتيجة المرغوبة
+- إنشاء هوكات متنوعة تناسب مختلف منصات التواصل الاجتماعي (فيسبوك، انستجرام، تيكتوك)
+- كتابة نص فيديو ريلز كامل يمكن استخدامه على الفور
+- إمكانية نسخ المحتوى بسهولة واستخدامه مباشرة
+- تصميم متجاوب يعمل على جميع الأجهزة
 
-## Development
+## التقنيات المستخدمة
 
-This app is built with:
 - React
 - Tailwind CSS
-- Vite
+- OpenAI API
+- Vercel Functions
 
-To run locally:
+## تشغيل التطبيق محلياً
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Deployment
+## النشر
 
-The app is deployed on Vercel.
+التطبيق منشور على منصة Vercel.
