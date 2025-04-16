@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  direction: rtl;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-lg p-6 my-4;
+}
+
+.btn-primary {
+  @apply py-2 px-4 bg-blue-600 text-white rounded-lg cursor-pointer hover:bg-blue-700 transition-colors;
+}
+
+.btn-secondary {
+  @apply py-2 px-4 bg-gray-200 text-gray-700 rounded-lg cursor-pointer hover:bg-gray-300 transition-colors;
+}
+
+.option-card {
+  @apply p-3 border rounded-lg cursor-pointer transition-colors text-right;
+}
+
+.option-card-selected {
+  @apply bg-blue-100 border-blue-500;
+}
+
+.option-card-default {
+  @apply hover:bg-gray-50 border-gray-200;
+}
